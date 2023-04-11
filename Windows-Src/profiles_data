@@ -1,0 +1,64 @@
+#profile_number
+_REQUIRED_#POINTS:_3_11_21_26_51_101_201_401_801_1601_
+_REQUIRED_#NUM_CHAN:_number_of_channels_to_measure_1-4_
+_REQUIRED_#CHAN1:_S11_S21_S12_S22_
+_OPTIONAL_#CHAN2:_S11_S21_S12_S22_
+_OPTIONAL_#CHAN3:_S11_S21_S12_S22_
+_OPTIONAL_#CHAN4:_S11_S21_S12_S22_
+_REQUIRED_#TESTTYPE:_TIMED_INDEF_
+_REQUIRED_#FGATHER:_time_interval_of_data_gathering_in_minutes_
+_OPTIONAL_#TGATHER:_time_test_runs_for_in_minutes_
+_REQUIRED_#CALKIT:
+    0:_2.4mm
+    1:_2.92mm
+    2:_2.92*
+    3:_3.5mmD
+    4:_3.5mmC
+    5:_7-16
+    6:_7mm
+    7:_type-N_50_ohm
+    8:_type-N 75 ohm
+    9:_TRL_3.5mm
+    10:_User_kit
+    _default_4_
+_REQUIRED_#FSTART:_startfreq_in_MHz_
+_REQUIRED_#FSTOP:_stopfreq_in_MHz_
+#profile_number
+
+#0
+201
+1
+S11
+TIMED 
+5
+60
+4
+200
+400
+#0
+
+#1
+1601
+4
+S11
+S21
+S22
+S12
+INDEF
+5
+4
+300
+3000
+#1
+
+#2
+201
+1
+S21
+TIMED
+1
+5
+4
+500
+1000
+#2
